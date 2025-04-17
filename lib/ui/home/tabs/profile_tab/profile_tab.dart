@@ -20,15 +20,12 @@ class ProfileTab extends StatelessWidget {
           child: state is ProfileSuccess ? Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                child: Image.asset(AppImages.logoBlue),
-              ),
+
               Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 8.0, vertical: 10),
                 child: Text(
-                  'WelCome, Marioma',
+                  'WelCome',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
               ),

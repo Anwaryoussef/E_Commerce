@@ -26,7 +26,7 @@ class SplashScreen extends StatelessWidget {
     });
     return Scaffold(
       body: Image.asset(
-        'assets/images/Group 23.png',
+        'assets/images/Splash.jpg',
         width: double.infinity,
         height: double.infinity,
         fit: BoxFit.cover,

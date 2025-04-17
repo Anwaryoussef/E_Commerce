@@ -62,7 +62,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(
                       height: MediaQuery.of(context).size.height * .10,
                     ),
-                    Center(child: Image.asset('assets/images/logo.png')),
+
                     Padding(
                       padding: EdgeInsets.only(top: MediaQuery.of(context).size.width*.2,left: MediaQuery.of(context).size.width*.05),
                       child: Text('Welcome back !',

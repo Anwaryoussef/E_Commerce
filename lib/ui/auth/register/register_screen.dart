@@ -54,9 +54,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
               SizedBox(
                 height: MediaQuery.of(context).size.height * .07,
               ),
-              Center(
-                child: Image.asset('assets/images/logo.png'),
-              ),
+
+
               Form(
                 key: cubit.form,
                 child: Column(

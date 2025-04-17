@@ -11,7 +11,6 @@ class AppImages{
   static const String slider1 = 'assets/images/slider1.png';
   static const String slider2 = 'assets/images/slider2.png';
   static const String slider3 = 'assets/images/slider3.png';
-  static const String logoBlue = 'assets/images/logo_blue.png';
   static const String test = 'assets/images/test.png';
   static const String add = 'assets/images/add.png';
   static const String delete = 'assets/images/delete 1.png';
